@@ -18,3 +18,7 @@ ls -l >> ~/temp/appendFile 2>&1
 ls &> ~/temp/outAnderr2
 
 lst &>> ~/temp/outAnderr2
+
+ls -l >>~/temp/out1 2>>~/temp/err2
+错误输出 >>~/temp/out1 2>>~/temp/err2
+
