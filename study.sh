@@ -14,3 +14,7 @@ lst 2> ~/temp/err
 ls > ~/temp/outAnderr 2>&1
 
 ls -l >> ~/temp/appendFile 2>&1
+
+ls &> ~/temp/outAnderr2
+
+lst &>> ~/temp/outAnderr2
