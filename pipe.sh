@@ -7,3 +7,5 @@ cd x&&ls
 cd x||ls
 
 cd x&& echo "yes" || echo "no"
+
+ls -a /etc | more
