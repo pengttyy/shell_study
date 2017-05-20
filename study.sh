@@ -23,3 +23,5 @@ ls -l >>~/temp/out1 2>>~/temp/err2
 错误输出 >>~/temp/out1 2>>~/temp/err2
 
 lssssss &> /dev/null
+
+wc -cwl /etc/passwd
