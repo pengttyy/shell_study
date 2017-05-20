@@ -5,3 +5,5 @@ echo $command
 
 command=$(ls -a)
 echo $command
+
+echo "\$"
