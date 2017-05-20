@@ -9,3 +9,4 @@ echo "刪除变量：$date"
 export name=环境变量
 echo $name
 
+env
