@@ -15,3 +15,5 @@ ls *
 ls [abcd]
 ls [0-9]*
 ls [^0-9]
+
+echo '$`'
