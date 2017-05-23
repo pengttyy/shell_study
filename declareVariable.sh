@@ -10,3 +10,9 @@ echo $dd
 
 ee=$(expr $aa + $bb)
 echo $ee
+
+ff=$(($aa+$bb))
+echo $ff
+
+gg=$[$aa+$bb]
+echo $gg
