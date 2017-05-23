@@ -4,3 +4,6 @@ aa=11;
 bb=22;
 cc=$aa+$bb;
 echo $cc
+
+declare -i dd=$aa+$bb
+echo $dd
