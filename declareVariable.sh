@@ -7,3 +7,6 @@ echo $cc
 
 declare -i dd=$aa+$bb
 echo $dd
+
+ee=$(expr $aa + $bb)
+echo $ee
